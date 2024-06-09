@@ -1,0 +1,165 @@
+name: studyteachkel3
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - lib/assets/math.png
+     - lib/assets/p1.png
+     - lib/assets/p11.png
+     - lib/assets/p12.png
+     - lib/assets/p13.png
+     - lib/assets/p14.png
+     - lib/assets/p15.png
+     - lib/assets/p16.png
+     - lib/assets/p17.png
+     - lib/assets/p21.png
+     - lib/assets/p22.png
+     - lib/assets/p23.png
+     - lib/assets/p24.png
+     - lib/assets/p41.png
+     - lib/assets/p42.png
+     - lib/assets/account.png
+     - lib/assets/avatar.png
+     - lib/assets/hand.png
+     - lib/assets/home.png
+     - lib/assets/kimia.png
+     - lib/assets/matematika.png
+     - lib/assets/fisika.png
+     - lib/assets/english.png
+     - lib/assets/guru1.png
+     - lib/assets/guru2.png
+     - lib/assets/guru3.png
+     - lib/assets/additional.png
+     - lib/assets/detail.png
+     - lib/assets/icondetail.png
+     - lib/assets/contohsoal.png
+     - lib/assets/artikel.png
+     - lib/assets/like.png
+     - lib/assets/notif.png
+     - lib/assets/logo_google.png
+     - lib/assets/amico.png
+     - lib/assets/splash.png
+     - lib/assets/sign_up.png
+     - lib/assets/roket.png
+     - lib/assets/StudyTeach.png
+     - lib/assets/bolabola.png
+     - lib/assets/panah.png
+     - lib/assets/takko.png
+     - lib/assets/pana.png
+     - lib/assets/user.png
+     - lib/assets/gembok.png
+     - lib/assets/sizebox.png
+     - lib/assets/signin.png
+     - lib/assets/signup.png
+     - lib/assets/phone.png
+     - lib/assets/email.png
+     - lib/assets/containersatu.jpg
+     - lib/assets/containerwelcome.png
+     - lib/assets/selamatdatangsatu.png
+     - lib/assets/containerwelcomeempat.png
+     - lib/assets/containerwelcometiga.png
+     - lib/assets/raihlahilmu.png
+     - lib/assets/saatdirimu.png
+     - lib/assets/selanjutnya.png
+     - lib/assets/soalsatu.png
+     - lib/assets/duavariabel.png
+     - lib/assets/soaltiga.png
+     - lib/assets/soallima.png
+     - lib/assets/soalenam.png
+     - lib/assets/soaltujuh.png
+     - lib/assets/soaldelapan.png
+     - lib/assets/soal9.png
+     - lib/assets/soal10.png
+     - lib/assets/soal11.png
+     - lib/assets/soal12.png
+     - lib/assets/soal13.png
+     - lib/assets/soal14.png
+     - lib/assets/soal15.png
+     - lib/assets/soal16.png
+     - lib/assets/soal17.png
+     - lib/assets/b1.png
+    
+ 
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
